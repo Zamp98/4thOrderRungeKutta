@@ -4,9 +4,8 @@ min = 0
 max = 2
 t = min
 n = int(max/h)
-
-def function(y, t, h):
-    return h*(y - t ** 2 + 1)
+    f = (m.sin(2*t)-2*t*y)/t**2
+    return h*f
 for i in range(n):
 
     k1 = function(y, t, h)
